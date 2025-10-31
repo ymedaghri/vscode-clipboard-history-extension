@@ -3,16 +3,16 @@
     "displayName": "Clipboard History",
     "description": "Keep a history of your copied items and re-paste if needed",
     "version": "1.0.6",
-    "publisher": "Anjali",
+    "publisher": "Medaghri",
     "license": "LICENSE.md",
     "icon": "images/logo.png",
     "bugs": {
         "url": "https://github.com/aefernandes/vscode-clipboard-history-extension/issues"
     },
-    "homepage": "https://github.com/aefernandes/vscode-clipboard-history-extension/blob/master/README.md",
+    "homepage": "https://github.com/ymedaghri/vscode-clipboard-history-extension/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aefernandes/vscode-clipboard-history-extension/"
+        "url": "https://github.com/ymedaghri/vscode-clipboard-history-extension.git"
     },
     "engines": {
         "vscode": "^1.12.0"
@@ -114,10 +114,11 @@
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.0.3",
-        "vscode": "^1.0.0",
+        "@types/mocha": "^2.2.32",
+        "@types/node": "^24.9.2",
+        "@vscode/vsce": "^3.6.2",
         "mocha": "^2.3.3",
-        "@types/node": "^6.0.40",
-        "@types/mocha": "^2.2.32"
+        "typescript": "^5.9.3",
+        "vscode": "^1.0.0"
     }
 }

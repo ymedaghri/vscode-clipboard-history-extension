@@ -53,7 +53,16 @@ You can also add custom keyboard short cuts by following the instructions in the
 
 ![demo](images/demo-3.gif)
 
+## Installing locally into VSCODE
 
+```bash
+npm install
+npm run vscode:prepublish
+npm install --save-dev @vscode/vsce
+npx vsce package
+
+code --install-extension clipboard-history-1.0.6.vsix
+```
 
 
 -----------------------------------------------------------------------------------------------------------
